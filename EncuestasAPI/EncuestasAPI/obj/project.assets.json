@@ -3443,11 +3443,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jesuk\\Documents\\Examen\\API\\EncuestasAPI\\EncuestasAPI\\EncuestasAPI.csproj",
+      "projectUniqueName": "C:\\Users\\jesuk\\Documents\\Examen\\API\\API_ENCUESTAS\\EncuestasAPI\\EncuestasAPI\\EncuestasAPI.csproj",
       "projectName": "EncuestasAPI",
-      "projectPath": "C:\\Users\\jesuk\\Documents\\Examen\\API\\EncuestasAPI\\EncuestasAPI\\EncuestasAPI.csproj",
+      "projectPath": "C:\\Users\\jesuk\\Documents\\Examen\\API\\API_ENCUESTAS\\EncuestasAPI\\EncuestasAPI\\EncuestasAPI.csproj",
       "packagesPath": "C:\\Users\\jesuk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jesuk\\Documents\\Examen\\API\\EncuestasAPI\\EncuestasAPI\\obj\\",
+      "outputPath": "C:\\Users\\jesuk\\Documents\\Examen\\API\\API_ENCUESTAS\\EncuestasAPI\\EncuestasAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LndUpcgc8hd1+VhiNIfA9CYDF1m4rUTXrNbqNbH2+5/euH0aZLgJ8FfujsCpFh7FyEzcLxuwc4iwjQUJHB4K4A==",
+  "dgSpecHash": "lKlWJvZdxfcKV0SgvrG+YJpAgUmt6bIL1R/1+8Kf1yGAodPPUxQWjTHjjVFW9T2zdZw0VGI30hyHZOn64bH+nw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jesuk\\Documents\\Examen\\API\\EncuestasAPI\\EncuestasAPI\\EncuestasAPI.csproj",
+  "projectFilePath": "C:\\Users\\jesuk\\Documents\\Examen\\API\\API_ENCUESTAS\\EncuestasAPI\\EncuestasAPI\\EncuestasAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jesuk\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\jesuk\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

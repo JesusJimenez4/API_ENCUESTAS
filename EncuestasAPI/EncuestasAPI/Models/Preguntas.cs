@@ -1,6 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Runtime.Serialization;
+using System.Text.Json.Serialization;
 
 namespace EncuestasAPI.Models
 {
@@ -12,7 +13,14 @@ namespace EncuestasAPI.Models
         [Column("IdPreguntas")]
         public int IdPreguntas { get; set; }
         [Column("Pregunta")]
+        [Required]
         public string Pregunta { get; set; }
+        [ForeignKey("fk_Encuestas")]
+        [Column("IdEncuestas")]
+        public int? IdEncuestas { get; set; }
+
+        [JsonIgnore]
+        public Encuesta fk_Encuestas { get; set; }
 
     }
 }

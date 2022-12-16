@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace EncuestasAPI.Models
 {
@@ -19,5 +20,18 @@ namespace EncuestasAPI.Models
         [Column("FechaEntrada")]
         [Required]
         public string FechaEntrada { get; set; }
+
+        [ForeignKey("fk_Usuario")]
+        [Column("Id")]
+        public int? Id { get; set; }
+        [ForeignKey("fk_Categoria")]
+        [Column("IdCategoria")]
+        public int? IdCategoria { get; set; }
+
+        [JsonIgnore]
+        public Usuario fk_Usuario { get; set; }
+        [JsonIgnore]
+        public Cateegoria fk_Categoria { get; set; }
     }
+}
 }
